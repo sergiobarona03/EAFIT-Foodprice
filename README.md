@@ -29,27 +29,27 @@ El objetivo de este repositorio es presentar los insumos empleados en la constru
 3. **Insumos locales (caso de estudio: Cali):** incluye las bases de datos empleadas en la aplicación de la metodología para el caso de Cali, Colombia, en el período de septiembre/2022. Para el lugar y período de estudio, las bases de datos utilizadas fueron las siguientes:
 
 - abs_cavasa: información primaria de abastecimiento de alimentos proporcionada por CAVASA (flujo de carga en toneladas)
-- 
+  
 - abs_cali: base de datos de abastecimiento (flujo de carga en kg) para la ciudad de Cali, integrando la información secundaria extraída de SIPSA y la información primaria de CAVASA.
-- 
+  
 - precios_cavasa: información primaria de precios medios (semanales y mensuales) de alimentos proporcionada por CAVASA (la unidad de referencia cambia según la unidad comercial).
-- 
+  
 - precios_sipsa: información secundaria sobre el precio promedio mensual de los alimentos (precio/kg) extraído de SIPSA.
-- 
+  
 - TCAC: base de datos sobre la composición nutricional de los alimentos según la Tabla de Composición de Alimentos Colombianos
-- 
+  
 - TCAC_grupos: mapeo entre la clasificación de la TCAC y los grupos de alimentos de las Guías Alimentarias Basadas en Alimentos (GABA) para la población colombiana.
-- 
+  
 - mapeo_cavasa: mapeo entre el nombre de los alimentos de las bases de datos de precios y abastecimiento proporcionadas por CAVASA (CAVASA no emplea una clasificación por códigos y, en consecuencia, el mapeo es realizado de acuerdo con el nombre del alimento).
-- 
+  
 - mapeo_sipsa_abs_precios: mapeo entre el nombre de los alimentos de las bases de precios y abastecimiento de SIPSA (el mapeo opera por el nombre del alimento y no emplea el código TCAC).
-- 
+  
 - mapeo_tcac: mapeo entre la lista de alimentos (incluyendo SIPSA y CAVASA) y la composición nutricional de la TCAC.
-- 
+  
 - DRI_m y DRI_f: requerimientos de energía y nutrientes esenciales para el sexo masculina y femenina, respectivamente.
-- 
+ 
 - EER_share_m y EER_share_f: recomendaciones proporcionadas por GABA (diferenciadas según grupos de alimentos) para el sexo masculino y femenino, respectivamente.
-- 
+  
 - intercambios: base de datos con el peso (expresado en gramos) de un intercambio para cada alimento.
  
    
