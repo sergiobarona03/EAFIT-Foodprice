@@ -1,4 +1,4 @@
-# EAFIT-Foodprice
+# Bases de datos - Foodprice
 
 El objetivo de este repositorio es presentar los insumos empleados en la construcción y la implementación del paquete ‘Foodprice’ version 1.0.0. El repositorio contiene los siguientes insumos:
 
